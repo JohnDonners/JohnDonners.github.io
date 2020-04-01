@@ -37,7 +37,7 @@
     playbackRate: 1,
     muted: true,
     loop: true,
-    autoplay: true,
+    autoplay: false,
     position: '50% 50%',
     posterType: 'detect',
     resizing: true,
@@ -319,7 +319,7 @@
 
         // Set video properties
         .prop({
-          autoplay: settings.autoplay,
+          autoplay: false,
           loop: settings.loop,
           volume: settings.volume,
           muted: settings.muted,

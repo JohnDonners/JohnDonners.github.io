@@ -190,7 +190,7 @@ function(a,b,c,d){var e=function(b){this._core=b,this._timeout=null,this._paused
 	    $('.owl-app').owlCarousel({
             loop:true,
             margin:0,
-			autoplay:true,
+			autoplay:false,
 	        autoplayTimeout:3000,
 	        autoplayHoverPause:true,
             dots:false,
